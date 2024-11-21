@@ -1,19 +1,20 @@
-#greycol
+.greycol
 {
-    color: grey
+    color: grey;
 }
 .yellow
 {
     color: yellow;
 }
-.text-box > p:nth-child(2)
+h3:first-child
 {
-    color: grey;
+    color: pink;
+}
+p:nth-of-type(3)
+{
+    color: green;
 }
 .text-box > div > p
 {
     color: red;
-}
-p{
-    color: green;
 }
